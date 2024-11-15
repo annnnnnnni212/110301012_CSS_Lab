@@ -6,20 +6,19 @@ h1 {font-family: "Courier New", Courier, monospace;
     text-align: center;
     color: whitesmoke;}
 
- .navbar {display: flex;
-          justify-content: center;
-          background-color: #333;
-          padding: 0;
-       		top: 2em;
-            left: 2em;
-            width: 38.4em;}
+  .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
 
-.navbar a {color: white;
-           padding: 10px 50px;
-           text-decoration: none;
-           font-weight: bold;}
-
-.navbar a:hover {background-color: #555;}
+        .navbar a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
  .dropdown {
             position: relative;
